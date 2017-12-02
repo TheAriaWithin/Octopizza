@@ -25,9 +25,8 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>//target_x = other.target_x;
-//target_y = other.target_y;
-
+            <string>globalvar ground;
+ground = 1120;
 </string>
           </argument>
         </arguments>
@@ -53,10 +52,10 @@
             <string>//mouseDistance = point_distance(x, y, obj_mouseclick.x, obj_mouseclick.y);
 //move_towards_point(obj_mouseclick.x, obj_mouseclick.y, min(16, mouseDistance));
 
-mouseDistance = point_distance(x, 1024, obj_mouseclick.x, 1024);
-move_towards_point(obj_mouseclick.x, 1024, min(16, mouseDistance));
+mouseDistance = point_distance(x, ground, obj_mouseclick.x, ground);
+move_towards_point(obj_mouseclick.x, ground, min(16, mouseDistance));
 
-if (y != 1024) {y = 1024;}  // Cannot Leave the ground
+if (y != ground) {y = ground;}  // Cannot Leave the ground
 if (x &lt; 130) {x = 130;}     // Left room boundary
 if (x &gt; 1900) {x = 1900;}   // Right room boundary
 </string>
@@ -186,9 +185,9 @@ if (x &gt; 1900) {x = 1900;}   // Right room boundary
           <argument>
             <kind>1</kind>
             <string>obj_octopus.x = 130;
-obj_octopus.y = 1024;
+obj_octopus.y = ground;
 
-instance_create(130, 1024, obj_mouseclick);
+instance_create(130, ground, obj_mouseclick);
 </string>
           </argument>
         </arguments>
