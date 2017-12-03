@@ -54,6 +54,7 @@
     <object>objects\obj_coralpot</object>
     <object>objects\obj_coral2</object>
     <object>objects\obj_Arrow</object>
+    <object>objects\object20</object>
     <object>objects\obj_cowardFish</object>
     <objects name="Collectables">
       <object>objects\obj_fish1</object>
