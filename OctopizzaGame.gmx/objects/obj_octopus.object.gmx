@@ -55,7 +55,7 @@ ground = 1120;
 mouseDistance = point_distance(x, ground, obj_mouseclick.x, ground);
 move_towards_point(obj_mouseclick.x, ground, min(16, mouseDistance));
 
-if (y != ground) {y = ground;}  // Cannot Leave the ground
+if (y &lt; ground) {y = ground;}  // Cannot drop below the ground
 if (x &lt; 130) {x = 130;}     // Left room boundary
 if (x &gt; 1900) {x = 1900;}   // Right room boundary
 </string>
