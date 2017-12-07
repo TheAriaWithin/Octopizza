@@ -30,6 +30,7 @@
     <sprite>sprites\spr_wave</sprite>
     <sprite>sprites\spr_boulder</sprite>
     <sprite>sprites\spr_snail</sprite>
+    <sprite>sprites\spr_seaweed</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\bck_main</background>
@@ -43,29 +44,34 @@
   </backgrounds>
   <paths name="paths"/>
   <objects name="objects">
-    <object>objects\obj_wall</object>
     <object>objects\obj_octopus</object>
-    <object>objects\obj_control</object>
-    <object>objects\obj_stone</object>
-    <object>objects\obj_mouseclick</object>
-    <object>objects\obj_warp</object>
-    <object>objects\obj_path1</object>
-    <object>objects\obj_coral1</object>
-    <object>objects\obj_coralpot</object>
-    <object>objects\obj_coral2</object>
-    <object>objects\obj_Arrow</object>
     <object>objects\object20</object>
-    <object>objects\obj_cowardFish</object>
     <objects name="Collectables">
+      <object>objects\obj_cowardFish</object>
       <object>objects\obj_fish1</object>
       <object>objects\obj_fish4</object>
       <object>objects\obj_fish3</object>
       <object>objects\obj_fish2</object>
       <object>objects\obj_crab</object>
+      <object>objects\obj_seaweed</object>
+      <object>objects\obj_snail</object>
     </objects>
-    <object>objects\obj_wave</object>
-    <object>objects\obj_boulder</object>
-    <object>objects\obj_snail</object>
+    <objects name="GameDevthings">
+      <object>objects\obj_mouseclick</object>
+      <object>objects\obj_warp</object>
+      <object>objects\obj_Arrow</object>
+      <object>objects\obj_control</object>
+      <object>objects\obj_wave</object>
+    </objects>
+    <objects name="Design Objects">
+      <object>objects\obj_wall</object>
+      <object>objects\obj_coral1</object>
+      <object>objects\obj_stone</object>
+      <object>objects\obj_path1</object>
+      <object>objects\obj_boulder</object>
+      <object>objects\obj_coral2</object>
+      <object>objects\obj_coralpot</object>
+    </objects>
   </objects>
   <rooms name="rooms">
     <rooms name="Level_0">

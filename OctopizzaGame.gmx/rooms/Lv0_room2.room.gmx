@@ -52,6 +52,9 @@
   </views>
   <instances>
     <instance objName="obj_Arrow" x="1824" y="800" name="inst_F91B1DA5" locked="0" code="" scaleX="-1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_seaweed" x="512" y="1184" name="inst_55F1B98E" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_seaweed" x="960" y="1120" name="inst_35D0545F" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_seaweed" x="1504" y="1184" name="inst_3259B14D" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
   <tiles/>
   <PhysicsWorld>0</PhysicsWorld>
