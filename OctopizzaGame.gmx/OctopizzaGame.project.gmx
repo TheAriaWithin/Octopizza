@@ -31,6 +31,9 @@
     <sprite>sprites\spr_boulder</sprite>
     <sprite>sprites\spr_snail</sprite>
     <sprite>sprites\spr_seaweed</sprite>
+    <sprite>sprites\spr_title</sprite>
+    <sprite>sprites\sprite22</sprite>
+    <sprite>sprites\spr_play_button</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\bck_main</background>
@@ -72,6 +75,8 @@
       <object>objects\obj_coral2</object>
       <object>objects\obj_coralpot</object>
     </objects>
+    <object>objects\obj_title</object>
+    <object>objects\obj_play_button</object>
   </objects>
   <rooms name="rooms">
     <rooms name="Level_0">
@@ -108,6 +113,7 @@
     </rooms>
     <room>rooms\MechanicsTesting</room>
     <room>rooms\room3</room>
+    <room>rooms\rm_Menu_Screen</room>
     <room>rooms\room4</room>
     <room>rooms\rm_main</room>
     <room>rooms\Room_Template</room>
