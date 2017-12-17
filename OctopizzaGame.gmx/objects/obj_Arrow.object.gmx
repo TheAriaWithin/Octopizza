@@ -25,7 +25,8 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>if ( global.collectables == 0 ) { visible = true; }
+            <string>if ( global.collectables == 0 ) 
+    { visible = true; }
 else { visible = false; }
 </string>
           </argument>
