@@ -2,7 +2,7 @@
 <object>
   <spriteName>spr_mouseclick</spriteName>
   <solid>0</solid>
-  <visible>0</visible>
+  <visible>-1</visible>
   <depth>0</depth>
   <persistent>0</persistent>
   <parentName>&lt;undefined&gt;</parentName>
@@ -25,7 +25,11 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>if (y != 1024) {y = 1024;}  // Cannot Leave the ground
+            <string>//
+//MOVEMENT BOUNDARIES
+//
+if (y &gt;= ground) {y = ground; gravity = 0; speed = 0;}  // Cannot drop below the ground
+else { gravity = 1; }
 if (x &lt; 130) {x = 130;}     // Left room boundary
 if (x &gt; 1900) {x = 1900;}   // Right room boundary
 </string>
@@ -51,7 +55,10 @@ if (x &gt; 1900) {x = 1900;}   // Right room boundary
           <argument>
             <kind>1</kind>
             <string>x=mouse_x;
-// y=mouse_y; //Removed for Single Path
+y=mouse_y; //Removed for Single Path
+
+gravity = 1;
+speed = 0;
 
 
 </string>

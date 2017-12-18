@@ -52,10 +52,13 @@ ground = 1120;
             <string>//mouseDistance = point_distance(x, y, obj_mouseclick.x, obj_mouseclick.y);
 //move_towards_point(obj_mouseclick.x, obj_mouseclick.y, min(16, mouseDistance));
 
-mouseDistance = point_distance(x, ground, obj_mouseclick.x, ground);
-move_towards_point(obj_mouseclick.x, ground, min(16, mouseDistance));
+mouseDistance = point_distance(x, y, obj_mouseclick.x, obj_mouseclick.y);
+move_towards_point(obj_mouseclick.x, obj_mouseclick.y, min(16, mouseDistance));
 
-if (y &lt; ground) {y = ground;}  // Cannot drop below the ground
+//
+//MOVEMENT BOUNDARIES
+//
+//if (y &gt; ground) {y = ground;}  // Cannot drop below the ground
 if (x &lt; 130) {x = 130;}     // Left room boundary
 if (x &gt; 1900) {x = 1900;}   // Right room boundary
 </string>
