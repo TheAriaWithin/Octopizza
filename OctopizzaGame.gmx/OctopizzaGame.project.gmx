@@ -52,9 +52,6 @@
     <objects name="Collectables">
       <object>objects\obj_cowardFish</object>
       <object>objects\obj_fish1</object>
-      <object>objects\obj_fish4</object>
-      <object>objects\obj_fish3</object>
-      <object>objects\obj_fish2</object>
       <object>objects\obj_crab</object>
       <object>objects\obj_seaweed</object>
       <object>objects\obj_snail</object>
