@@ -214,9 +214,6 @@
     <instance objName="obj_stone" x="0" y="0" name="inst_4A175888" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_mouseclick" x="928" y="672" name="inst_530BB3FA" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_fish1" x="608" y="576" name="inst_4C73BC41" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_fish4" x="672" y="896" name="inst_12BA8117" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_fish2" x="1216" y="992" name="inst_9871F2DC" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_fish3" x="1376" y="608" name="inst_6E4852F6" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_control" x="64" y="64" name="inst_8F9B6459" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_warp" x="64" y="768" name="inst_77C98A89" locked="0" code="target_x = 1824;&#xA;target_y = 800;&#xA;target_r = room4;&#xA;" scaleX="0.970149278640747" scaleY="19.043478012085" colour="4294967295" rotation="0"/>
     <instance objName="obj_warp" x="1984" y="800" name="inst_B4343205" locked="0" code="target_x = 224;&#xA;target_y = 800;&#xA;target_r = room4;" scaleX="0.985074639320374" scaleY="19.5072460174561" colour="4294967295" rotation="0"/>
