@@ -10,30 +10,30 @@
     <sound>sound\snd_music</sound>
   </sounds>
   <sprites name="sprites">
-    <sprite>sprites\spr_clown</sprite>
-    <sprite>sprites\sprite2</sprite>
-    <sprite>sprites\spr_wall</sprite>
-    <sprite>sprites\fish1</sprite>
-    <sprite>sprites\fish4</sprite>
-    <sprite>sprites\fish3</sprite>
-    <sprite>sprites\fish2</sprite>
-    <sprite>sprites\spr_stone</sprite>
-    <sprite>sprites\spr_mouseclick</sprite>
-    <sprite>sprites\spr_warp</sprite>
-    <sprite>sprites\spr_path1</sprite>
-    <sprite>sprites\spr_coral1</sprite>
-    <sprite>sprites\spr_coralpot</sprite>
-    <sprite>sprites\sprite13</sprite>
-    <sprite>sprites\spr_coral2a</sprite>
-    <sprite>sprites\spr_crab</sprite>
-    <sprite>sprites\spr_Arrow</sprite>
-    <sprite>sprites\spr_wave</sprite>
-    <sprite>sprites\spr_boulder</sprite>
-    <sprite>sprites\spr_snail</sprite>
-    <sprite>sprites\spr_seaweed</sprite>
-    <sprite>sprites\spr_title</sprite>
-    <sprite>sprites\sprite22</sprite>
-    <sprite>sprites\spr_play_button</sprite>
+    <sprites name="Collectables Sprites">
+      <sprite>sprites\spr_snail</sprite>
+      <sprite>sprites\spr_seaweed</sprite>
+      <sprite>sprites\spr_crab</sprite>
+      <sprite>sprites\spr_fish1</sprite>
+    </sprites>
+    <sprites name="GameDev Sprites">
+      <sprite>sprites\spr_Arrow</sprite>
+      <sprite>sprites\spr_warp</sprite>
+      <sprite>sprites\spr_title</sprite>
+      <sprite>sprites\spr_mouseclick</sprite>
+      <sprite>sprites\spr_wave</sprite>
+      <sprite>sprites\spr_play_button</sprite>
+    </sprites>
+    <sprites name="Design Sprites">
+      <sprite>sprites\spr_stone</sprite>
+      <sprite>sprites\spr_path1</sprite>
+      <sprite>sprites\spr_coral1</sprite>
+      <sprite>sprites\spr_wall</sprite>
+      <sprite>sprites\spr_boulder</sprite>
+      <sprite>sprites\spr_coral2a</sprite>
+      <sprite>sprites\spr_coralpot</sprite>
+      <sprite>sprites\spr_octopus</sprite>
+    </sprites>
   </sprites>
   <backgrounds name="background">
     <background>background\bck_main</background>
@@ -47,20 +47,20 @@
   </backgrounds>
   <paths name="paths"/>
   <objects name="objects">
-    <object>objects\obj_octopus</object>
-    <object>objects\object20</object>
-    <objects name="Collectables">
+    <objects name="Collectables Objects">
       <object>objects\obj_cowardFish</object>
       <object>objects\obj_fish1</object>
       <object>objects\obj_crab</object>
       <object>objects\obj_seaweed</object>
       <object>objects\obj_snail</object>
     </objects>
-    <objects name="GameDevthings">
-      <object>objects\obj_mouseclick</object>
-      <object>objects\obj_warp</object>
+    <objects name="GameDev Objects">
       <object>objects\obj_Arrow</object>
       <object>objects\obj_control</object>
+      <object>objects\obj_mouseclick</object>
+      <object>objects\obj_play_button</object>
+      <object>objects\obj_title</object>
+      <object>objects\obj_warp</object>
       <object>objects\obj_wave</object>
     </objects>
     <objects name="Design Objects">
@@ -71,9 +71,8 @@
       <object>objects\obj_boulder</object>
       <object>objects\obj_coral2</object>
       <object>objects\obj_coralpot</object>
+      <object>objects\obj_octopus</object>
     </objects>
-    <object>objects\obj_title</object>
-    <object>objects\obj_play_button</object>
   </objects>
   <rooms name="rooms">
     <rooms name="Level_0">
