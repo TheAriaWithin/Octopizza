@@ -113,6 +113,7 @@
     <room>rooms\room4</room>
     <room>rooms\rm_main</room>
     <room>rooms\Room_Template</room>
+    <room>rooms\room28</room>
   </rooms>
   <help>
     <rtf>help.rtf</rtf>

@@ -27,6 +27,7 @@
             <kind>1</kind>
             <string>globalvar ground;
 ground = 1120;
+var swimspeed = 10;
 </string>
           </argument>
         </arguments>
@@ -52,13 +53,14 @@ ground = 1120;
             <string>//mouseDistance = point_distance(x, y, obj_mouseclick.x, obj_mouseclick.y);
 //move_towards_point(obj_mouseclick.x, obj_mouseclick.y, min(16, mouseDistance));
 
-mouseDistance = point_distance(x, y, obj_mouseclick.x, obj_mouseclick.y);
-move_towards_point(obj_mouseclick.x, obj_mouseclick.y, min(16, mouseDistance));
+//mouseDistance = point_distance(x, y, obj_mouseclick.x, obj_mouseclick.y);
+//move_towards_point(obj_mouseclick.x, obj_mouseclick.y, min(16, mouseDistance));
 
 //
 //MOVEMENT BOUNDARIES
 //
-//if (y &gt; ground) {y = ground;}  // Cannot drop below the ground
+if (y &gt; ground) {y = ground; friction = 0.5;}  // Cannot drop below the ground
+if (y &lt; ground) {friction = 0.1} //Easier to swim than to slide
 if (x &lt; 130) {x = 130;}     // Left room boundary
 if (x &gt; 1900) {x = 1900;}   // Right room boundary
 </string>
@@ -170,6 +172,31 @@ if (x &gt; 1900) {x = 1900;}   // Right room boundary
         </arguments>
       </action>
     </event>
+    <event eventtype="6" enumb="56">
+      <action>
+        <libid>1</libid>
+        <id>603</id>
+        <kind>7</kind>
+        <userelative>0</userelative>
+        <isquestion>0</isquestion>
+        <useapplyto>-1</useapplyto>
+        <exetype>2</exetype>
+        <functionname></functionname>
+        <codestring></codestring>
+        <whoName>self</whoName>
+        <relative>0</relative>
+        <isnot>0</isnot>
+        <arguments>
+          <argument>
+            <kind>1</kind>
+            <string>//Face Mouse-Release Direction
+obj_octopus.direction =  point_direction(x, y, mouse_x, mouse_y);
+obj_octopus.speed = 10;
+</string>
+          </argument>
+        </arguments>
+      </action>
+    </event>
     <event eventtype="7" enumb="4">
       <action>
         <libid>1</libid>
@@ -189,8 +216,9 @@ if (x &gt; 1900) {x = 1900;}   // Right room boundary
             <kind>1</kind>
             <string>obj_octopus.x = 130;
 obj_octopus.y = ground;
-
-instance_create(130, ground, obj_mouseclick);
+friction = 0.5;
+gravity = 0.2;
+//instance_create(130, ground, obj_mouseclick);
 </string>
           </argument>
         </arguments>
