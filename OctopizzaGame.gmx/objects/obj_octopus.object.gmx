@@ -120,7 +120,7 @@ if (x &gt; 1900) {x = 1900;}   // Right room boundary
         </arguments>
       </action>
     </event>
-    <event eventtype="4" ename="obj_stone">
+    <event eventtype="4" ename="obj_platform">
       <action>
         <libid>1</libid>
         <id>115</id>

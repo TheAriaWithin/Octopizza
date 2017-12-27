@@ -25,7 +25,7 @@
       <sprite>sprites\spr_wave</sprite>
     </sprites>
     <sprites name="Design Sprites">
-      <sprite>sprites\spr_stone</sprite>
+      <sprite>sprites\spr_platform</sprite>
       <sprite>sprites\spr_path1</sprite>
       <sprite>sprites\spr_coral1</sprite>
       <sprite>sprites\spr_wall</sprite>
@@ -66,7 +66,7 @@
     <objects name="Design Objects">
       <object>objects\obj_wall</object>
       <object>objects\obj_coral1</object>
-      <object>objects\obj_stone</object>
+      <object>objects\obj_platform</object>
       <object>objects\obj_path1</object>
       <object>objects\obj_boulder</object>
       <object>objects\obj_coral2</object>

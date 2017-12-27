@@ -57,10 +57,10 @@
     <instance objName="obj_cowardFish" x="480" y="352" name="inst_DF36DDA3" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_cowardFish" x="1600" y="352" name="inst_58B6DF0D" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_cowardFish" x="384" y="1152" name="inst_0B04F9EC" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_stone" x="-64" y="0" name="inst_4EE7AAF1" locked="0" code="" scaleX="1" scaleY="24.2580642700195" colour="4294967295" rotation="0"/>
-    <instance objName="obj_stone" x="2048" y="-64" name="inst_F65B7D35" locked="0" code="" scaleX="1.01587307453156" scaleY="26.3225803375244" colour="4294967295" rotation="0"/>
-    <instance objName="obj_stone" x="-64" y="1536" name="inst_3F5AC463" locked="0" code="" scaleX="33.5483856201172" scaleY="1.03225803375244" colour="4294967295" rotation="0"/>
-    <instance objName="obj_stone" x="2048" y="-64" name="inst_1A8117E1" locked="0" code="" scaleX="-33.5483856201172" scaleY="1.03225803375244" colour="4294967295" rotation="0"/>
+    <instance objName="obj_platform" x="-64" y="0" name="inst_4EE7AAF1" locked="0" code="" scaleX="1" scaleY="24.2580642700195" colour="4294967295" rotation="0"/>
+    <instance objName="obj_platform" x="2048" y="-64" name="inst_F65B7D35" locked="0" code="" scaleX="1.01587307453156" scaleY="26.3225803375244" colour="4294967295" rotation="0"/>
+    <instance objName="obj_platform" x="-64" y="1536" name="inst_3F5AC463" locked="0" code="" scaleX="33.5483856201172" scaleY="1.03225803375244" colour="4294967295" rotation="0"/>
+    <instance objName="obj_platform" x="2048" y="-64" name="inst_1A8117E1" locked="0" code="" scaleX="-33.5483856201172" scaleY="1.03225803375244" colour="4294967295" rotation="0"/>
     <instance objName="obj_crab" x="576" y="544" name="inst_BC6689DC" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
   <tiles/>
