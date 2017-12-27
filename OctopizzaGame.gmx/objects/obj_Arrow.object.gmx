@@ -50,8 +50,8 @@ else { visible = false; }
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>obj_octopus.x = 50; //was target_x
-obj_octopus.y = 50; //was target_y
+            <string>//obj_octopus.x = 50; //was target_x
+//obj_octopus.y = 50; //was target_y
 //room_goto(target_r);
 if (visible)
 {
