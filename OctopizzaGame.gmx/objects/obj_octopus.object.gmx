@@ -27,7 +27,9 @@
             <kind>1</kind>
             <string>globalvar ground;
 ground = 1120;
-var swimspeed = 10;
+globalvar swimspeed;
+swimspeed = 12;
+move_bounce_solid(false);
 </string>
           </argument>
         </arguments>
@@ -71,25 +73,25 @@ if (x &gt; 1900) {x = 1900;}   // Right room boundary
     <event eventtype="4" ename="obj_coralpot">
       <action>
         <libid>1</libid>
-        <id>115</id>
-        <kind>0</kind>
+        <id>603</id>
+        <kind>7</kind>
         <userelative>0</userelative>
         <isquestion>0</isquestion>
         <useapplyto>-1</useapplyto>
-        <exetype>1</exetype>
-        <functionname>action_bounce</functionname>
+        <exetype>2</exetype>
+        <functionname></functionname>
         <codestring></codestring>
         <whoName>self</whoName>
         <relative>0</relative>
         <isnot>0</isnot>
         <arguments>
           <argument>
-            <kind>4</kind>
-            <string>0</string>
-          </argument>
-          <argument>
-            <kind>4</kind>
-            <string>0</string>
+            <kind>1</kind>
+            <string>if (speed &lt; 4)
+    speed = 0;
+else speed = 5;
+move_bounce_solid(false);
+</string>
           </argument>
         </arguments>
       </action>
@@ -97,25 +99,25 @@ if (x &gt; 1900) {x = 1900;}   // Right room boundary
     <event eventtype="4" ename="obj_coral2">
       <action>
         <libid>1</libid>
-        <id>115</id>
-        <kind>0</kind>
+        <id>603</id>
+        <kind>7</kind>
         <userelative>0</userelative>
         <isquestion>0</isquestion>
         <useapplyto>-1</useapplyto>
-        <exetype>1</exetype>
-        <functionname>action_bounce</functionname>
+        <exetype>2</exetype>
+        <functionname></functionname>
         <codestring></codestring>
         <whoName>self</whoName>
         <relative>0</relative>
         <isnot>0</isnot>
         <arguments>
           <argument>
-            <kind>4</kind>
-            <string>0</string>
-          </argument>
-          <argument>
-            <kind>4</kind>
-            <string>0</string>
+            <kind>1</kind>
+            <string>if (speed &lt; 4)
+    speed = 0;
+else speed = 5;
+move_bounce_solid(false);
+</string>
           </argument>
         </arguments>
       </action>
@@ -123,25 +125,25 @@ if (x &gt; 1900) {x = 1900;}   // Right room boundary
     <event eventtype="4" ename="obj_platform">
       <action>
         <libid>1</libid>
-        <id>115</id>
-        <kind>0</kind>
+        <id>603</id>
+        <kind>7</kind>
         <userelative>0</userelative>
         <isquestion>0</isquestion>
         <useapplyto>-1</useapplyto>
-        <exetype>1</exetype>
-        <functionname>action_bounce</functionname>
+        <exetype>2</exetype>
+        <functionname></functionname>
         <codestring></codestring>
         <whoName>self</whoName>
         <relative>0</relative>
         <isnot>0</isnot>
         <arguments>
           <argument>
-            <kind>4</kind>
-            <string>0</string>
-          </argument>
-          <argument>
-            <kind>4</kind>
-            <string>0</string>
+            <kind>1</kind>
+            <string>if (speed &lt; 4)
+    speed = 0;
+else speed = 5;
+move_bounce_solid(false);
+</string>
           </argument>
         </arguments>
       </action>
@@ -149,25 +151,25 @@ if (x &gt; 1900) {x = 1900;}   // Right room boundary
     <event eventtype="4" ename="obj_coral1">
       <action>
         <libid>1</libid>
-        <id>115</id>
-        <kind>0</kind>
+        <id>603</id>
+        <kind>7</kind>
         <userelative>0</userelative>
         <isquestion>0</isquestion>
         <useapplyto>-1</useapplyto>
-        <exetype>1</exetype>
-        <functionname>action_bounce</functionname>
+        <exetype>2</exetype>
+        <functionname></functionname>
         <codestring></codestring>
         <whoName>self</whoName>
         <relative>0</relative>
         <isnot>0</isnot>
         <arguments>
           <argument>
-            <kind>4</kind>
-            <string>0</string>
-          </argument>
-          <argument>
-            <kind>4</kind>
-            <string>0</string>
+            <kind>1</kind>
+            <string>if (speed &lt; 4)
+    speed = 0;
+else speed = 5;
+move_bounce_solid(false);
+</string>
           </argument>
         </arguments>
       </action>
@@ -191,7 +193,7 @@ if (x &gt; 1900) {x = 1900;}   // Right room boundary
             <kind>1</kind>
             <string>//Face Mouse-Release Direction
 obj_octopus.direction =  point_direction(x, y, mouse_x, mouse_y);
-obj_octopus.speed = 10;
+obj_octopus.speed = swimspeed;
 </string>
           </argument>
         </arguments>
