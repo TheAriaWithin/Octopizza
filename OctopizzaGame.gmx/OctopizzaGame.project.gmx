@@ -21,8 +21,8 @@
       <sprite>sprites\spr_warp</sprite>
       <sprite>sprites\spr_title</sprite>
       <sprite>sprites\spr_mouseclick</sprite>
-      <sprite>sprites\spr_wave</sprite>
       <sprite>sprites\spr_play_button</sprite>
+      <sprite>sprites\spr_wave</sprite>
     </sprites>
     <sprites name="Design Sprites">
       <sprite>sprites\spr_stone</sprite>
