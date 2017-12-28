@@ -15,6 +15,7 @@
       <sprite>sprites\spr_seaweed</sprite>
       <sprite>sprites\spr_crab</sprite>
       <sprite>sprites\spr_fish1</sprite>
+      <sprite>sprites\sprite18</sprite>
     </sprites>
     <sprites name="GameDev Sprites">
       <sprite>sprites\spr_Arrow</sprite>
