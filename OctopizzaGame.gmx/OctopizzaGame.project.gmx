@@ -19,9 +19,7 @@
     <sprites name="GameDev Sprites">
       <sprite>sprites\spr_Arrow</sprite>
       <sprite>sprites\spr_warp</sprite>
-      <sprite>sprites\spr_title</sprite>
       <sprite>sprites\spr_mouseclick</sprite>
-      <sprite>sprites\spr_play_button</sprite>
       <sprite>sprites\spr_wave</sprite>
     </sprites>
     <sprites name="Design Sprites">
@@ -33,6 +31,16 @@
       <sprite>sprites\spr_coral2a</sprite>
       <sprite>sprites\spr_coralpot</sprite>
       <sprite>sprites\spr_octopus</sprite>
+    </sprites>
+    <sprites name="Menu Sprites">
+      <sprite>sprites\spr_level_button_1</sprite>
+      <sprite>sprites\spr_level_button_2</sprite>
+      <sprite>sprites\spr_level_button_3</sprite>
+      <sprite>sprites\spr_level_button_4</sprite>
+      <sprite>sprites\spr_level_button_5</sprite>
+      <sprite>sprites\spr_play_button</sprite>
+      <sprite>sprites\spr_level_select_button</sprite>
+      <sprite>sprites\spr_title</sprite>
     </sprites>
   </sprites>
   <backgrounds name="background">
@@ -47,6 +55,16 @@
   </backgrounds>
   <paths name="paths"/>
   <objects name="objects">
+    <objects name="Menu Objects">
+      <object>objects\obj_level_button_1</object>
+      <object>objects\obj_level_button_2</object>
+      <object>objects\obj_level_button_3</object>
+      <object>objects\obj_level_button_4</object>
+      <object>objects\obj_level_button_5</object>
+      <object>objects\obj_play_button</object>
+      <object>objects\obj_level_select_button</object>
+      <object>objects\obj_title</object>
+    </objects>
     <objects name="Collectables Objects">
       <object>objects\obj_cowardFish</object>
       <object>objects\obj_fish1</object>
@@ -58,8 +76,6 @@
       <object>objects\obj_Arrow</object>
       <object>objects\obj_control</object>
       <object>objects\obj_mouseclick</object>
-      <object>objects\obj_play_button</object>
-      <object>objects\obj_title</object>
       <object>objects\obj_warp</object>
       <object>objects\obj_wave</object>
     </objects>
@@ -77,6 +93,7 @@
   <rooms name="rooms">
     <rooms name="Level_0">
       <room>rooms\rm_Menu_Screen</room>
+      <room>rooms\rm_level_select</room>
       <room>rooms\Lv0_room1</room>
       <room>rooms\Lv0_room2</room>
       <room>rooms\Lv0_room3</room>
