@@ -51,9 +51,11 @@
     <view visible="0" objName="&lt;undefined&gt;" xview="0" yview="0" wview="1024" hview="768" xport="0" yport="0" wport="1024" hport="768" hborder="32" vborder="32" hspeed="-1" vspeed="-1"/>
   </views>
   <instances>
-    <instance objName="obj_title" x="1056" y="352" name="inst_47EC9CAB" locked="0" code="" scaleX="0.994000017642975" scaleY="1.52777779102325" colour="4294967295" rotation="0"/>
-    <instance objName="obj_play_button" x="1024" y="704" name="inst_27ADB5DB" locked="0" code="" scaleX="0.746666669845581" scaleY="0.633333325386047" colour="4294967295" rotation="0"/>
-    <instance objName="obj_level_select_button" x="1024" y="1024" name="inst_341ED8E8" locked="0" code="" scaleX="0.752222239971161" scaleY="0.697222232818604" colour="4294967295" rotation="0"/>
+    <instance objName="obj_level_button_1" x="448" y="352" name="inst_1C74A8E9" locked="0" code="" scaleX="1.38888883590698" scaleY="1.38888883590698" colour="4294967295" rotation="0"/>
+    <instance objName="obj_level_button_2" x="736" y="352" name="inst_EB161645" locked="0" code="" scaleX="1.38888883590698" scaleY="1.38888883590698" colour="4294967295" rotation="0"/>
+    <instance objName="obj_level_button_3" x="1024" y="352" name="inst_BA615CC4" locked="0" code="" scaleX="1.38888883590698" scaleY="1.38888883590698" colour="4294967295" rotation="0"/>
+    <instance objName="obj_level_button_4" x="1312" y="352" name="inst_A9C666A8" locked="0" code="" scaleX="1.38888883590698" scaleY="1.38888883590698" colour="4294967295" rotation="0"/>
+    <instance objName="obj_level_button_5" x="1600" y="352" name="inst_2986AFD5" locked="0" code="" scaleX="1.38888883590698" scaleY="1.38888883590698" colour="4294967295" rotation="0"/>
   </instances>
   <tiles/>
   <PhysicsWorld>0</PhysicsWorld>
