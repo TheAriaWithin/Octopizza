@@ -191,12 +191,17 @@ move_bounce_solid(false);
           <argument>
             <kind>1</kind>
             <string>//Move in Mouse-Release Direction
+/*
 if (x_press != -1 || y_press != -1) {
     obj_octopus.direction =  point_direction(x_press, y_press, mouse_x, mouse_y);
     obj_octopus.speed = swimspeed;
     x_press = -1;
     y_press = -1;
 }
+*/
+
+obj_octopus.direction =  point_direction(x, y, mouse_x, mouse_y);
+obj_octopus.speed = swimspeed;
 </string>
           </argument>
         </arguments>
