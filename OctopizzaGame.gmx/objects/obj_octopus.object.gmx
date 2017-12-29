@@ -30,6 +30,10 @@ ground = 1120;
 globalvar swimspeed;
 swimspeed = 12;
 move_bounce_solid(false);
+globalvar x_press;
+x_press = -1;
+globalvar y_press;
+y_press = -1;
 </string>
           </argument>
         </arguments>
@@ -192,8 +196,36 @@ move_bounce_solid(false);
           <argument>
             <kind>1</kind>
             <string>//Face Mouse-Release Direction
-obj_octopus.direction =  point_direction(x, y, mouse_x, mouse_y);
-obj_octopus.speed = swimspeed;
+if (x_press != -1 || y_press != -1) {
+    obj_octopus.direction =  point_direction(x_press, y_press, mouse_x, mouse_y);
+    obj_octopus.speed = swimspeed;
+    x_press = -1;
+    y_press = -1;
+}
+</string>
+          </argument>
+        </arguments>
+      </action>
+    </event>
+    <event eventtype="6" enumb="4">
+      <action>
+        <libid>1</libid>
+        <id>603</id>
+        <kind>7</kind>
+        <userelative>0</userelative>
+        <isquestion>0</isquestion>
+        <useapplyto>-1</useapplyto>
+        <exetype>2</exetype>
+        <functionname></functionname>
+        <codestring></codestring>
+        <whoName>self</whoName>
+        <relative>0</relative>
+        <isnot>0</isnot>
+        <arguments>
+          <argument>
+            <kind>1</kind>
+            <string>x_press = mouse_x;
+y_press = mouse_y;
 </string>
           </argument>
         </arguments>
@@ -220,6 +252,7 @@ obj_octopus.speed = swimspeed;
 obj_octopus.y = ground;
 friction = 0.5;
 gravity = 0.2;
+speed = 0;
 //instance_create(130, ground, obj_mouseclick);
 </string>
           </argument>
