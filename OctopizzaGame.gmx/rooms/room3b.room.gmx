@@ -166,7 +166,6 @@
     <instance objName="obj_path1" x="992" y="896" name="inst_CAAB1FE0" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_path1" x="992" y="1184" name="inst_61AC8A17" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_path1" x="992" y="256" name="inst_0DF66152" locked="0" code="" scaleX="1.29999995231628" scaleY="1.29999995231628" colour="4294967295" rotation="0"/>
-    <instance objName="obj_mouseclick" x="960" y="704" name="inst_AC9E9DA4" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_coral1" x="800" y="352" name="inst_0FA6DE5B" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_coral1" x="608" y="352" name="inst_B7EACAC9" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_coral1" x="352" y="352" name="inst_232D8033" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>

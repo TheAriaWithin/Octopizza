@@ -219,7 +219,6 @@ target_r = rm_main;</code>
     <instance objName="obj_control" x="64" y="64" name="inst_8F9B6459" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_warp" x="1984" y="800" name="inst_002FA239" locked="0" code="target_x = 224;&#xA;target_y = 800;&#xA;target_r = room3;&#xA;" scaleX="0.985074639320374" scaleY="19.5072460174561" colour="4294967295" rotation="0"/>
     <instance objName="obj_warp" x="64" y="768" name="inst_C5F7C0DA" locked="0" code="target_x = 1824;&#xA;target_y = 800;&#xA;target_r = room3;&#xA;" scaleX="0.970149278640747" scaleY="19.043478012085" colour="4294967295" rotation="0"/>
-    <instance objName="obj_mouseclick" x="992" y="704" name="inst_E3FD5AC8" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
   <tiles/>
   <PhysicsWorld>0</PhysicsWorld>

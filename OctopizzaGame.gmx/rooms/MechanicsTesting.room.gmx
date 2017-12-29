@@ -52,7 +52,6 @@
   </views>
   <instances>
     <instance objName="obj_octopus" x="992" y="736" name="inst_6C997303" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_mouseclick" x="960" y="704" name="inst_AAA3BDA0" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_cowardFish" x="1248" y="1088" name="inst_A080DC4C" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_cowardFish" x="480" y="352" name="inst_DF36DDA3" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_cowardFish" x="1600" y="352" name="inst_58B6DF0D" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>

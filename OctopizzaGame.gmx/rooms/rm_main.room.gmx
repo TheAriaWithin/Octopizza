@@ -86,7 +86,6 @@
     <instance objName="obj_platform" x="0" y="192" name="inst_4F24EE51" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_platform" x="0" y="128" name="inst_7D1D86D4" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_platform" x="0" y="64" name="inst_9FF61E80" locked="0" code="" scaleX="1.01587307453156" scaleY="1.01587307453156" colour="4294967295" rotation="0"/>
-    <instance objName="obj_mouseclick" x="288" y="224" name="inst_47345F92" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
   <tiles/>
   <PhysicsWorld>0</PhysicsWorld>

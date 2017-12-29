@@ -201,7 +201,6 @@
     <instance objName="obj_coralpot" x="1760" y="736" name="inst_2A91D019" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_coralpot" x="1472" y="736" name="inst_110311AE" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_octopus" x="992" y="1280" name="inst_967CD02D" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_mouseclick" x="960" y="1248" name="inst_8D4879A2" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
   <tiles/>
   <PhysicsWorld>0</PhysicsWorld>
