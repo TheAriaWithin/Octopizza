@@ -42,6 +42,7 @@
       <sprite>sprites\spr_play_button</sprite>
       <sprite>sprites\spr_level_select_button</sprite>
       <sprite>sprites\spr_title</sprite>
+      <sprite>sprites\spr_level_1_text</sprite>
     </sprites>
   </sprites>
   <backgrounds name="background">
@@ -65,6 +66,7 @@
       <object>objects\obj_play_button</object>
       <object>objects\obj_level_select_button</object>
       <object>objects\obj_title</object>
+      <object>objects\obj_level_1_text</object>
     </objects>
     <objects name="Collectables Objects">
       <object>objects\obj_cowardFish</object>
