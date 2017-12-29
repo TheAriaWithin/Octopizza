@@ -56,17 +56,12 @@ y_press = -1;
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>//mouseDistance = point_distance(x, y, obj_mouseclick.x, obj_mouseclick.y);
-//move_towards_point(obj_mouseclick.x, obj_mouseclick.y, min(16, mouseDistance));
-
-//mouseDistance = point_distance(x, y, obj_mouseclick.x, obj_mouseclick.y);
-//move_towards_point(obj_mouseclick.x, obj_mouseclick.y, min(16, mouseDistance));
-
-//
+            <string>//
 //MOVEMENT BOUNDARIES
 //
 if (y &gt; ground) {y = ground; friction = 0.5;}  // Cannot drop below the ground
 if (y &lt; ground) {friction = 0.1} //Easier to swim than to slide
+if (y &lt; 20) { y = 20; } //Cannot raise above the ceiling
 if (x &lt; 130) {x = 130;}     // Left room boundary
 if (x &gt; 1900) {x = 1900;}   // Right room boundary
 </string>
@@ -195,7 +190,7 @@ move_bounce_solid(false);
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>//Face Mouse-Release Direction
+            <string>//Move in Mouse-Release Direction
 if (x_press != -1 || y_press != -1) {
     obj_octopus.direction =  point_direction(x_press, y_press, mouse_x, mouse_y);
     obj_octopus.speed = swimspeed;
@@ -253,7 +248,6 @@ obj_octopus.y = ground;
 friction = 0.5;
 gravity = 0.2;
 speed = 0;
-//instance_create(130, ground, obj_mouseclick);
 </string>
           </argument>
         </arguments>

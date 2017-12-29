@@ -249,6 +249,27 @@
           </argument>
         </arguments>
       </action>
+      <action>
+        <libid>1</libid>
+        <id>603</id>
+        <kind>7</kind>
+        <userelative>0</userelative>
+        <isquestion>0</isquestion>
+        <useapplyto>-1</useapplyto>
+        <exetype>2</exetype>
+        <functionname></functionname>
+        <codestring></codestring>
+        <whoName>self</whoName>
+        <relative>0</relative>
+        <isnot>0</isnot>
+        <arguments>
+          <argument>
+            <kind>1</kind>
+            <string>global.collectables += 1
+</string>
+          </argument>
+        </arguments>
+      </action>
     </event>
     <event eventtype="2" enumb="2">
       <action>
@@ -417,15 +438,17 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>/*////////////////////
+            <string>if (y &gt; ground) {y = ground; }  // Cannot drop below the ground
+if (y &lt; 20) { y = 20; } //Cannot raise above the ceiling
+if (x &lt; 130) {x = 130;}     // Left room boundary
+if (x &gt; 1900) {x = 1900;}   // Right room boundary
+
+/*////////////////////
 
        RUN AWAY
 
 */////////////////////
-if (y &gt; ground) {y = ground; }  // Cannot drop below the ground
-if (y &lt; 20) { y = 20; } //Cannot raise above the ceiling
-if (x &lt; 130) {x = 130;}     // Left room boundary
-if (x &gt; 1900) {x = 1900;}   // Right room boundary
+
 var distance_x = obj_octopus.x - self.x;
 var distance_y = obj_octopus.y - self.y;
 
@@ -448,6 +471,43 @@ if (changeDir == false){
     }
 }
 //else speed = normSpeed;
+</string>
+          </argument>
+        </arguments>
+      </action>
+    </event>
+    <event eventtype="4" ename="obj_octopus">
+      <action>
+        <libid>1</libid>
+        <id>203</id>
+        <kind>0</kind>
+        <userelative>0</userelative>
+        <isquestion>0</isquestion>
+        <useapplyto>-1</useapplyto>
+        <exetype>1</exetype>
+        <functionname>action_kill_object</functionname>
+        <codestring></codestring>
+        <whoName>self</whoName>
+        <relative>0</relative>
+        <isnot>0</isnot>
+      </action>
+      <action>
+        <libid>1</libid>
+        <id>603</id>
+        <kind>7</kind>
+        <userelative>0</userelative>
+        <isquestion>0</isquestion>
+        <useapplyto>-1</useapplyto>
+        <exetype>2</exetype>
+        <functionname></functionname>
+        <codestring></codestring>
+        <whoName>self</whoName>
+        <relative>0</relative>
+        <isnot>0</isnot>
+        <arguments>
+          <argument>
+            <kind>1</kind>
+            <string>global.collectables -= 1
 </string>
           </argument>
         </arguments>
