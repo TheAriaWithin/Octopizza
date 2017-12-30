@@ -76,6 +76,7 @@ for (i = 0; i &lt; instance_number(obj_octopus) - 1; i++) {
     <instance objName="obj_platform" x="1184" y="736" name="inst_614F957A" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_platform" x="1248" y="736" name="inst_94BE11B7" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_octopus" x="192" y="1152" name="inst_5D017573" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_volume" x="2016" y="32" name="inst_90F1543E" locked="0" code="" scaleX="0.504950523376465" scaleY="0.504950523376465" colour="4294967295" rotation="0"/>
   </instances>
   <tiles/>
   <PhysicsWorld>0</PhysicsWorld>

@@ -10,7 +10,8 @@
   <persistent>0</persistent>
   <colour>12632256</colour>
   <showcolour>-1</showcolour>
-  <code>global.collectables = 0;</code>
+  <code>global.collectables = 0;
+audio_play_sound(snd_theme_song, 10, true);</code>
   <enableViews>0</enableViews>
   <clearViewBackground>-1</clearViewBackground>
   <clearDisplayBuffer>-1</clearDisplayBuffer>
@@ -54,6 +55,7 @@
     <instance objName="obj_title" x="1056" y="352" name="inst_47EC9CAB" locked="0" code="" scaleX="0.994000017642975" scaleY="1.52777779102325" colour="4294967295" rotation="0"/>
     <instance objName="obj_play_button" x="1024" y="704" name="inst_27ADB5DB" locked="0" code="" scaleX="0.746666669845581" scaleY="0.633333325386047" colour="4294967295" rotation="0"/>
     <instance objName="obj_level_select_button" x="1024" y="1024" name="inst_341ED8E8" locked="0" code="" scaleX="0.752222239971161" scaleY="0.697222232818604" colour="4294967295" rotation="0"/>
+    <instance objName="obj_menu_volume" x="2016" y="32" name="inst_8E308EF3" locked="0" code="" scaleX="0.686274528503418" scaleY="0.686274528503418" colour="4294967295" rotation="0"/>
   </instances>
   <tiles/>
   <PhysicsWorld>0</PhysicsWorld>

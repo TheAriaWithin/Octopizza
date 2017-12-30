@@ -8,6 +8,10 @@
     <sound>sound\snd_bounce</sound>
     <sound>sound\snd_click</sound>
     <sound>sound\snd_music</sound>
+    <sound>sound\snd_underwater</sound>
+    <sound>sound\snd_seaweed_cut</sound>
+    <sound>sound\snd_swish</sound>
+    <sound>sound\snd_theme_song</sound>
   </sounds>
   <sprites name="sprites">
     <sprites name="Collectables Sprites">
@@ -22,6 +26,10 @@
       <sprite>sprites\spr_warp</sprite>
       <sprite>sprites\spr_mouseclick</sprite>
       <sprite>sprites\spr_wave</sprite>
+      <sprite>sprites\spr_volume</sprite>
+      <sprite>sprites\spr_menu_volume</sprite>
+      <sprite>sprites\spr_volume_mute</sprite>
+      <sprite>sprites\spr_menu_volume_mute</sprite>
     </sprites>
     <sprites name="Design Sprites">
       <sprite>sprites\spr_platform</sprite>
@@ -80,6 +88,10 @@
       <object>objects\obj_control</object>
       <object>objects\obj_warp</object>
       <object>objects\obj_wave</object>
+      <object>objects\obj_volume</object>
+      <object>objects\obj_volume_mute</object>
+      <object>objects\obj_menu_volume</object>
+      <object>objects\obj_menu_volume_mute</object>
     </objects>
     <objects name="Design Objects">
       <object>objects\obj_wall</object>
