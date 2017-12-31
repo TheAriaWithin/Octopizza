@@ -31,11 +31,7 @@
     <yoffset>0</yoffset>
   </makerSettings>
   <backgrounds>
-<<<<<<< HEAD
-    <background visible="-1" foreground="0" name="bg_ocean" x="0" y="0" htiled="0" vtiled="0" hspeed="0" vspeed="0" stretch="-1"/>
-=======
     <background visible="-1" foreground="0" name="octobuilding1" x="0" y="0" htiled="0" vtiled="0" hspeed="0" vspeed="0" stretch="-1"/>
->>>>>>> c6f432a329ce1803de06f9d3177ec8ac6439acaa
     <background visible="0" foreground="0" name="" x="0" y="0" htiled="-1" vtiled="-1" hspeed="0" vspeed="0" stretch="0"/>
     <background visible="0" foreground="0" name="" x="0" y="0" htiled="-1" vtiled="-1" hspeed="0" vspeed="0" stretch="0"/>
     <background visible="0" foreground="0" name="" x="0" y="0" htiled="-1" vtiled="-1" hspeed="0" vspeed="0" stretch="0"/>
