@@ -108,6 +108,13 @@
     </objects>
   </objects>
   <rooms name="rooms">
+    <rooms name="Level 1A">
+      <room>rooms\room1a</room>
+      <room>rooms\room2a</room>
+      <room>rooms\room3a</room>
+      <room>rooms\room4a</room>
+      <room>rooms\room5a</room>
+    </rooms>
     <rooms name="Level_0">
       <room>rooms\rm_Menu_Screen</room>
       <room>rooms\rm_level_select</room>
@@ -116,13 +123,6 @@
       <room>rooms\Lv0_room3</room>
       <room>rooms\Lv0_room4</room>
       <room>rooms\Lv0_room5</room>
-    </rooms>
-    <rooms name="Level 1A">
-      <room>rooms\room1a</room>
-      <room>rooms\room2a</room>
-      <room>rooms\room3a</room>
-      <room>rooms\room4a</room>
-      <room>rooms\room5a</room>
     </rooms>
   </rooms>
   <help>
