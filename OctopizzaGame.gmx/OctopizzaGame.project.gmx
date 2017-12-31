@@ -62,6 +62,9 @@
     <background>background\octobackground1</background>
     <background>background\octobackground2</background>
     <background>background\octobuilding1</background>
+    <background>background\bg_ocean</background>
+    <background>background\bg_0</background>
+    <background>background\bg_1</background>
   </backgrounds>
   <paths name="paths"/>
   <objects name="objects">
