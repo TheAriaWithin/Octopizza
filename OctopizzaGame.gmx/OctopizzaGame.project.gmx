@@ -71,8 +71,11 @@
     <background>background\bg_ocean</background>
     <background>background\bg_0</background>
     <background>background\bg_1</background>
+    <background>background\bg_2</background>
     <background>background\bg_3</background>
     <background>background\bg_4</background>
+    <background>background\bg_5</background>
+    <background>background\bg_6</background>
   </backgrounds>
   <paths name="paths"/>
   <objects name="objects">
