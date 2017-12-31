@@ -48,6 +48,7 @@
       <sprite>sprites\spr_level_button_4</sprite>
       <sprite>sprites\spr_level_button_5</sprite>
       <sprite>sprites\spr_play_button</sprite>
+      <sprite>sprites\_spr_menu_button</sprite>
       <sprite>sprites\spr_level_select_button</sprite>
       <sprite>sprites\spr_title</sprite>
       <sprite>sprites\spr_level_1_text</sprite>
@@ -95,6 +96,7 @@
       <object>objects\obj_level_button_4a</object>
       <object>objects\obj_level_button_5a</object>
       <object>objects\obj_level_2_text</object>
+      <object>objects\obj_menu_button</object>
     </objects>
     <objects name="Collectables Objects">
       <object>objects\obj_cowardFish</object>
