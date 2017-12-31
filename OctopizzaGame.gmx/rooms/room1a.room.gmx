@@ -10,7 +10,14 @@
   <persistent>0</persistent>
   <colour>8454143</colour>
   <showcolour>-1</showcolour>
-  <code>audio_stop_sound(snd_theme_song);</code>
+  <code>for (i = 0; i &lt; instance_number(obj_octopus) - 1; i++) {
+     octopus[i] = instance_find(obj_octopus,i);
+     with (octopus[i]) {
+          instance_destroy();
+     }
+}
+audio_play_sound(snd_underwater, 10, true);
+audio_stop_sound(snd_theme_song);</code>
   <enableViews>0</enableViews>
   <clearViewBackground>-1</clearViewBackground>
   <clearDisplayBuffer>-1</clearDisplayBuffer>
@@ -58,6 +65,7 @@
     <instance objName="obj_cowardFish" x="1248" y="512" name="inst_8DB5E42B" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_platform" x="1024" y="736" name="inst_AF61BDEF" locked="0" code="" scaleX="9" scaleY="0.5" colour="4294967295" rotation="0"/>
     <instance objName="obj_octopus" x="192" y="1088" name="inst_3266123E" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_volume" x="2016" y="32" name="inst_6268341C" locked="0" code="" scaleX="0.504950523376465" scaleY="0.504950523376465" colour="4294967295" rotation="0"/>
   </instances>
   <tiles/>
   <PhysicsWorld>0</PhysicsWorld>
