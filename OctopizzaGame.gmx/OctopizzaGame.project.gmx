@@ -122,39 +122,14 @@
       <room>rooms\room2a</room>
       <room>rooms\room3a</room>
       <room>rooms\room4a</room>
-      <room>rooms\room5a</room>
     </rooms>
-    <rooms name="Level 1B">
-      <room>rooms\room1b</room>
-      <room>rooms\room2b</room>
-      <room>rooms\room3b</room>
-      <room>rooms\room4b</room>
-      <room>rooms\room5b</room>
-    </rooms>
-    <rooms name="Level 1.3">
-      <room>rooms\room1_3_1</room>
-      <room>rooms\room1_3_2</room>
-      <room>rooms\room1_3_3</room>
-      <room>rooms\room1_3_4</room>
-      <room>rooms\room1_3_5</room>
-    </rooms>
-    <rooms name="Level 1.4">
-      <room>rooms\room1_4_1</room>
-      <room>rooms\room1_4_2</room>
-    </rooms>
-    <room>rooms\MechanicsTesting</room>
-    <room>rooms\room3</room>
-    <room>rooms\room4</room>
-    <room>rooms\rm_main</room>
-    <room>rooms\Room_Template</room>
-    <room>rooms\room28</room>
   </rooms>
   <help>
     <rtf>help.rtf</rtf>
   </help>
   <TutorialState>
-    <IsTutorial>-1</IsTutorial>
-    <TutorialName>C:\Users\Chris LH\AppData\Local\GameMaker-Studio\tutorials\My_First_Game\</TutorialName>
-    <TutorialPage>14</TutorialPage>
+    <IsTutorial>0</IsTutorial>
+    <TutorialName></TutorialName>
+    <TutorialPage>0</TutorialPage>
   </TutorialState>
 </assets>
