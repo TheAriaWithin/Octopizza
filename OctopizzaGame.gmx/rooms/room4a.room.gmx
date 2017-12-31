@@ -51,18 +51,19 @@
     <view visible="0" objName="&lt;undefined&gt;" xview="0" yview="0" wview="1024" hview="768" xport="0" yport="0" wport="1024" hport="768" hborder="32" vborder="32" hspeed="-1" vspeed="-1"/>
   </views>
   <instances>
-    <instance objName="obj_coral1" x="1952" y="736" name="inst_383EA1A6" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_coral1" x="1696" y="736" name="inst_6FF9ED95" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_coral1" x="1536" y="736" name="inst_398CA74D" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_coralpot" x="1728" y="736" name="inst_6114944D" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_coralpot" x="1888" y="736" name="inst_446ACB06" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_coralpot" x="1632" y="736" name="inst_27ED5B83" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_coral1" x="1824" y="736" name="inst_B9B2E812" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_coralpot" x="1568" y="736" name="inst_4B170D92" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_coralpot" x="1760" y="736" name="inst_2A91D019" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_coralpot" x="1472" y="736" name="inst_110311AE" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_octopus" x="992" y="1280" name="inst_967CD02D" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_Arrow" x="1824" y="800" name="inst_4302ED81" locked="0" code="" scaleX="-1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_Arrow" x="1792" y="800" name="inst_4302ED81" locked="0" code="" scaleX="-1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_platform" x="1024" y="736" name="inst_2E81295D" locked="0" code="" scaleX="13" scaleY="0.753846168518066" colour="4294967295" rotation="0"/>
+    <instance objName="obj_platform" x="1024" y="224" name="inst_9D3678C2" locked="0" code="" scaleX="13" scaleY="0.753846168518066" colour="4294967295" rotation="0"/>
+    <instance objName="obj_platform" x="640" y="672" name="inst_158F4A67" locked="0" code="" scaleX="1" scaleY="2.5" colour="4294967295" rotation="0"/>
+    <instance objName="obj_platform" x="640" y="288" name="inst_72FF2AED" locked="0" code="" scaleX="1" scaleY="2.5" colour="4294967295" rotation="0"/>
+    <instance objName="obj_platform" x="1440" y="672" name="inst_7212DDA5" locked="0" code="" scaleX="1" scaleY="2.5" colour="4294967295" rotation="0"/>
+    <instance objName="obj_platform" x="1440" y="288" name="inst_A88FE12A" locked="0" code="" scaleX="1" scaleY="2.5" colour="4294967295" rotation="0"/>
+    <instance objName="obj_cowardFish" x="736" y="320" name="inst_B828882E" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_cowardFish" x="928" y="320" name="inst_7DCDE4B2" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_cowardFish" x="1184" y="320" name="inst_F2A40466" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_cowardFish" x="832" y="448" name="inst_0F2D564B" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_cowardFish" x="992" y="480" name="inst_BB5027EE" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_cowardFish" x="1248" y="544" name="inst_55FE7FB9" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
   <tiles/>
   <PhysicsWorld>0</PhysicsWorld>
