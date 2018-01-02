@@ -127,6 +127,7 @@
     </objects>
   </objects>
   <rooms name="rooms">
+    <room>rooms\Snail_Construction</room>
     <rooms name="Level_0">
       <room>rooms\rm_Menu_Screen</room>
       <room>rooms\rm_level_select</room>
