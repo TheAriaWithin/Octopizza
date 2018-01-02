@@ -47,11 +47,11 @@
       <sprite>sprites\spr_level_button_3</sprite>
       <sprite>sprites\spr_level_button_4</sprite>
       <sprite>sprites\spr_level_button_5</sprite>
+      <sprite>sprites\spr_level_1_text</sprite>
       <sprite>sprites\spr_play_button</sprite>
       <sprite>sprites\_spr_menu_button</sprite>
       <sprite>sprites\spr_level_select_button</sprite>
       <sprite>sprites\spr_title</sprite>
-      <sprite>sprites\spr_level_1_text</sprite>
       <sprite>sprites\spr_level_button_1a</sprite>
       <sprite>sprites\spr_level_button_2a</sprite>
       <sprite>sprites\spr_level_button_3a</sprite>
@@ -77,6 +77,8 @@
     <background>background\bg_4</background>
     <background>background\bg_5</background>
     <background>background\bg_6</background>
+    <background>background\bg_7</background>
+    <background>background\bg_8</background>
   </backgrounds>
   <paths name="paths"/>
   <objects name="objects">
