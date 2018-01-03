@@ -25,7 +25,14 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>stickTo = 0;
+            <string>// STICK TO
+// 1 : Top
+// 2 : Left
+// 3 : Bottom
+// 4 : Right
+
+stickTo = 4;
+snail_speed = 1;
 </string>
           </argument>
         </arguments>
@@ -163,29 +170,48 @@ if (stickTo == 4){
 // 3 : Bottom
 // 4 : Right
 
-// 0: DEFAULT/not set
-
-if(stickTo &lt; 1){ stickTo = 4; } // Right orientation is considered less than Top
-if(stickTo &gt; 4){ stickTo = 1; } // Top orientation is considered greater than Right
-
-//SNAIL ON TOP OF PLATFORM
-if(obj_platform.y &gt; obj_snail){
-    stickTo = 1;
-}
-
-//SNAIL ON LEFT SIDE OF PLATFORM
-if(obj_platform.x &lt; obj_snail) {
-    stickTo = 2;
-}
-
-//SNAIL ON BOTTOM OF PLATFORM
-if(obj_platform.y &lt; obj_snail) {
-    stickTo = 3;
-}
-
-//SNAIL ON RIGHT SIDE OF PLATFORM
-if(obj_platform.x &gt; obj_snail) {
-    stickTo = 4;
+switch(obj_snail.stickTo){
+    case 1:
+        //SNAIL HITS LEFT SIDE OF PLATFORM
+        if(bbox_left == obj_snail.bbox_right + 1) {
+            obj_snail.stickTo = 2;
+            obj_snail.direction = 90;
+            obj_snail.image_angle = 90;
+            obj_snail.x += bbox_left - obj_snail.bbox_right - 1;
+            obj_snail.y += bbox_bottom - obj_snail.bbox_bottom - 1;
+        }
+        break;
+    case 2:
+        //SNAIL HITS BOTTOM SIDE OF PLATFORM
+        if(bbox_bottom == obj_snail.bbox_top - 1) {
+            obj_snail.stickTo = 3;
+            obj_snail.direction = 180;
+            obj_snail.image_angle = 180;
+            obj_snail.y += bbox_bottom - obj_snail.bbox_top + 1;
+            obj_snail.x += bbox_right - obj_snail.bbox_right - 1;
+        }
+        break;
+    case 3:
+        //SNAIL HITS RIGHT SIDE OF PLATFORM
+        if(bbox_right == obj_snail.bbox_left - 1) {
+            obj_snail.stickTo = 4;
+            obj_snail.direction = 270;
+            obj_snail.image_angle = 270;
+            obj_snail.x += bbox_right - obj_snail.bbox_left + 1;
+            obj_snail.y += bbox_top - obj_snail.bbox_top + 1;
+        }
+        break;
+    case 4:
+        //SNAIL HITS TOP SIDE OF PLATFORM
+        if(bbox_top == obj_snail.bbox_bottom + 1) {
+            obj_snail.stickTo = 1;
+            obj_snail.direction = 270;
+            obj_snail.image_angle = 270;
+            obj_snail.y += bbox_top - obj_snail.bbox_bottom - 1;
+        }
+        break;
+    default:
+        break;
 }
 </string>
           </argument>
