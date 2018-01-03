@@ -205,8 +205,8 @@ switch(obj_snail.stickTo){
         //SNAIL HITS TOP SIDE OF PLATFORM
         if(bbox_top == obj_snail.bbox_bottom + 1) {
             obj_snail.stickTo = 1;
-            obj_snail.direction = 270;
-            obj_snail.image_angle = 270;
+            obj_snail.direction = 360;
+            obj_snail.image_angle = 360;
             obj_snail.y += bbox_top - obj_snail.bbox_bottom - 1;
             obj_snail.x += bbox_left - obj_snail.bbox_left + 1;
         }
