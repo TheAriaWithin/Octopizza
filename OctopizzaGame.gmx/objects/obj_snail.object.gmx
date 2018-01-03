@@ -31,7 +31,7 @@
 // 3 : Bottom
 // 4 : Right
 
-stickTo = 4;
+stickTo = 1;
 snail_speed = 1;
 </string>
           </argument>
@@ -208,6 +208,7 @@ switch(obj_snail.stickTo){
             obj_snail.direction = 270;
             obj_snail.image_angle = 270;
             obj_snail.y += bbox_top - obj_snail.bbox_bottom - 1;
+            obj_snail.x += bbox_left - obj_snail.bbox_left + 1;
         }
         break;
     default:
