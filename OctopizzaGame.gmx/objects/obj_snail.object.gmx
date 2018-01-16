@@ -72,60 +72,60 @@ if (stickTo != 0) { speed = snail_speed; }
 if (stickTo == 1){
     direction = 0;
     image_angle = 0;
-    if (!position_meeting(obj_snail.x - h_anchor, obj_snail.bbox_bottom + v_anchor, obj_platform))
+    if (!position_meeting(x - h_anchor, bbox_bottom + v_anchor, obj_platform))
     {
         //This line could be buggy
-        platform = instance_nearest(obj_snail.x - h_anchor, obj_snail.bbox_bottom + v_anchor, obj_platform);
+        platform = instance_nearest(x - h_anchor, bbox_bottom + v_anchor, obj_platform);
         stickTo = 4;
         direction = 270;
         image_angle = 270;
-        obj_snail.x += platform.bbox_right - obj_snail.bbox_left + 1;
-        obj_snail.y += platform.bbox_top - obj_snail.bbox_top;
+        x += platform.bbox_right - bbox_left + 1;
+        y += platform.bbox_top - bbox_top;
     }  
 }
 
 if (stickTo == 2){
     direction = 90;
     image_angle = 90;
-    if (!position_meeting(obj_snail.bbox_right + v_anchor, obj_snail.y + h_anchor, obj_platform))
+    if (!position_meeting(bbox_right + v_anchor, y + h_anchor, obj_platform))
     {
         //This line could be buggy
-        platform = instance_nearest(obj_snail.bbox_right + v_anchor, obj_snail.y + h_anchor, obj_platform);
+        platform = instance_nearest(bbox_right + v_anchor, y + h_anchor, obj_platform);
         stickTo = 1;
         direction = 0;
         image_angle = 0;
-        obj_snail.y += platform.bbox_top - obj_snail.bbox_bottom - 1;
-        obj_snail.x += platform.bbox_left - obj_snail.bbox_left;
+        y += platform.bbox_top - bbox_bottom - 1;
+        x += platform.bbox_left - bbox_left;
     }
 }
 
 if (stickTo == 3){
     direction = 180;
     image_angle = 180;
-    if (!position_meeting(obj_snail.x + h_anchor, obj_snail.bbox_top - v_anchor, obj_platform))
+    if (!position_meeting(x + h_anchor, bbox_top - v_anchor, obj_platform))
     {
         //This line could be buggy
-        platform = instance_nearest(obj_snail.x + h_anchor, obj_snail.bbox_top - v_anchor, obj_platform);
+        platform = instance_nearest(x + h_anchor, bbox_top - v_anchor, obj_platform);
         stickTo = 2;
         direction = 90;
         image_angle = 90;
-        obj_snail.x += platform.bbox_left - obj_snail.bbox_right - 1;
-        obj_snail.y += platform.bbox_bottom - obj_snail.bbox_bottom;
+        x += platform.bbox_left - bbox_right - 1;
+        y += platform.bbox_bottom - bbox_bottom;
     }
 }
 
 if (stickTo == 4){
     direction = 270;
     image_angle = 270;
-    if (!position_meeting(obj_snail.bbox_left - v_anchor, obj_snail.y - h_anchor, obj_platform))
+    if (!position_meeting(bbox_left - v_anchor, y - h_anchor, obj_platform))
     {
         //This line could be buggy
-        platform = instance_nearest(obj_snail.bbox_left + v_anchor, obj_snail.y - h_anchor, obj_platform);
+        platform = instance_nearest(bbox_left + v_anchor, y - h_anchor, obj_platform);
         stickTo = 3;
         direction = 180;
         image_angle = 180;
-        obj_snail.y += platform.bbox_bottom - obj_snail.bbox_top + 1;
-        obj_snail.x += platform.bbox_right - obj_snail.bbox_right;
+        y += platform.bbox_bottom - bbox_top + 1;
+        x += platform.bbox_right - bbox_right;
     }
 }
 </string>
