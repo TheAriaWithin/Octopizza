@@ -106,6 +106,18 @@
       <object>objects\obj_crab</object>
       <object>objects\obj_seaweed</object>
       <object>objects\obj_snail</object>
+      <objects name="Snail_Instances">
+        <object>objects\obj_snail_0</object>
+        <object>objects\obj_snail_1</object>
+        <object>objects\obj_snail_2</object>
+        <object>objects\obj_snail_3</object>
+        <object>objects\obj_snail_4</object>
+        <object>objects\obj_snail_5</object>
+        <object>objects\obj_snail_6</object>
+        <object>objects\obj_snail_7</object>
+        <object>objects\obj_snail_8</object>
+        <object>objects\obj_snail_9</object>
+      </objects>
     </objects>
     <objects name="GameDev Objects">
       <object>objects\obj_Arrow</object>
