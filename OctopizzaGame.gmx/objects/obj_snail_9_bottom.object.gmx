@@ -31,7 +31,8 @@
 // 3 : Bottom
 // 4 : Right
 
-stickTo = 1;
+global.collectables += 1;
+stickTo = 3;
 snail_speed = 1;
 </string>
           </argument>
@@ -214,45 +215,45 @@ if (stickTo == 4){
 // 3 : Bottom
 // 4 : Right
 
-switch(obj_snail_5.stickTo){
+switch(obj_snail_9.stickTo){
     case 1:
         //SNAIL HITS LEFT SIDE OF PLATFORM
-        if(bbox_left == obj_snail_5.bbox_right + 1) {
-            obj_snail_5.stickTo = 2;
-            obj_snail_5.direction = 90;
-            obj_snail_5.image_angle = 90;
-            obj_snail_5.x += bbox_left - obj_snail_5.bbox_right - 1;
-            obj_snail_5.y += bbox_bottom - obj_snail_5.bbox_bottom - 1;
+        if(bbox_left == obj_snail_9.bbox_right + 1) {
+            obj_snail_9.stickTo = 2;
+            obj_snail_9.direction = 90;
+            obj_snail_9.image_angle = 90;
+            obj_snail_9.x += bbox_left - obj_snail_9.bbox_right - 1;
+            obj_snail_9.y += bbox_bottom - obj_snail_9.bbox_bottom - 1;
         }
         break;
     case 2:
         //SNAIL HITS BOTTOM SIDE OF PLATFORM
-        if(bbox_bottom == obj_snail_5.bbox_top - 1) {
-            obj_snail_5.stickTo = 3;
-            obj_snail_5.direction = 180;
-            obj_snail_5.image_angle = 180;
-            obj_snail_5.y += bbox_bottom - obj_snail_5.bbox_top + 1;
-            obj_snail_5.x += bbox_right - obj_snail_5.bbox_right - 1;
+        if(bbox_bottom == obj_snail_9.bbox_top - 1) {
+            obj_snail_9.stickTo = 3;
+            obj_snail_9.direction = 180;
+            obj_snail_9.image_angle = 180;
+            obj_snail_9.y += bbox_bottom - obj_snail_9.bbox_top + 1;
+            obj_snail_9.x += bbox_right - obj_snail_9.bbox_right - 1;
         }
         break;
     case 3:
         //SNAIL HITS RIGHT SIDE OF PLATFORM
-        if(bbox_right == obj_snail_5.bbox_left - 1) {
-            obj_snail_5.stickTo = 4;
-            obj_snail_5.direction = 270;
-            obj_snail_5.image_angle = 270;
-            obj_snail_5.x += bbox_right - obj_snail_5.bbox_left + 1;
-            obj_snail_5.y += bbox_top - obj_snail_5.bbox_top + 1;
+        if(bbox_right == obj_snail_9.bbox_left - 1) {
+            obj_snail_9.stickTo = 4;
+            obj_snail_9.direction = 270;
+            obj_snail_9.image_angle = 270;
+            obj_snail_9.x += bbox_right - obj_snail_9.bbox_left + 1;
+            obj_snail_9.y += bbox_top - obj_snail_9.bbox_top + 1;
         }
         break;
     case 4:
         //SNAIL HITS TOP SIDE OF PLATFORM
-        if(bbox_top == obj_snail_5.bbox_bottom + 1) {
-            obj_snail_5.stickTo = 1;
-            obj_snail_5.direction = 360;
-            obj_snail_5.image_angle = 360;
-            obj_snail_5.y += bbox_top - obj_snail_5.bbox_bottom - 1;
-            obj_snail_5.x += bbox_left - obj_snail_5.bbox_left + 1;
+        if(bbox_top == obj_snail_9.bbox_bottom + 1) {
+            obj_snail_9.stickTo = 1;
+            obj_snail_9.direction = 360;
+            obj_snail_9.image_angle = 360;
+            obj_snail_9.y += bbox_top - obj_snail_9.bbox_bottom - 1;
+            obj_snail_9.x += bbox_left - obj_snail_9.bbox_left + 1;
         }
         break;
     default:

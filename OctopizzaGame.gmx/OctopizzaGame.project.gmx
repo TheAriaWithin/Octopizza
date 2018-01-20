@@ -118,11 +118,11 @@
         <object>objects\obj_snail_2</object>
         <object>objects\obj_snail_3</object>
         <object>objects\obj_snail_4</object>
-        <object>objects\obj_snail_5</object>
+        <object>objects\obj_snail_5_bottom</object>
         <object>objects\obj_snail_6</object>
         <object>objects\obj_snail_7</object>
         <object>objects\obj_snail_8</object>
-        <object>objects\obj_snail_9</object>
+        <object>objects\obj_snail_9_bottom</object>
       </objects>
     </objects>
     <objects name="GameDev Objects">
