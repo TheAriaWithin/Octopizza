@@ -62,7 +62,9 @@ audio_stop_sound(snd_theme_song);</code>
     <instance objName="obj_volume" x="2016" y="32" name="inst_39AE1CFB" locked="0" code="" scaleX="0.504950523376465" scaleY="0.504950523376465" colour="4294967295" rotation="0"/>
     <instance objName="obj_menu_button" x="1696" y="1376" name="inst_AA922781" locked="0" code="" scaleX="0.606666684150696" scaleY="0.588888883590698" colour="4294967295" rotation="0"/>
     <instance objName="obj_platform" x="256" y="256" name="inst_F98D5FE5" locked="0" code="" scaleX="4" scaleY="4" colour="4294967295" rotation="0"/>
+    <instance objName="obj_snail" x="256" y="82" name="inst_A74421FF" locked="0" code="" scaleX="1.76315784454346" scaleY="1.73076927661896" colour="4294967295" rotation="0"/>
     <instance objName="obj_platform" x="1792" y="256" name="inst_7D17F224" locked="0" code="" scaleX="4" scaleY="4" colour="4294967295" rotation="0"/>
+    <instance objName="obj_snail" x="1792" y="82" name="inst_309EC263" locked="0" code="" scaleX="1.76315784454346" scaleY="1.73076927661896" colour="4294967295" rotation="0"/>
     <instance objName="obj_fish1" x="608" y="544" name="inst_F60A06AB" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_fish1" x="1376" y="512" name="inst_A7E42C37" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_seaweed" x="576" y="1120" name="inst_6C2EBD47" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
@@ -72,9 +74,6 @@ audio_stop_sound(snd_theme_song);</code>
     <instance objName="obj_cowardFish" x="1056" y="992" name="inst_AC9E7DAF" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_cowardFish" x="1600" y="1120" name="inst_651CC0AC" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_cowardFish" x="960" y="192" name="inst_B23CF3D6" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_snail_0" x="256" y="96" name="inst_88EF615F" locked="0" code="" scaleX="1.75999999046326" scaleY="1.73000001907349" colour="4294967295" rotation="0"/>
-    <instance objName="obj_snail" x="1792" y="96" name="inst_941CCEA0" locked="0" code="" scaleX="-1.75999999046326" scaleY="1.73000001907349" colour="4294967295" rotation="0"/>
-    <instance objName="obj_Arrow" x="1856" y="704" name="inst_E0850D7F" locked="0" code="" scaleX="-1" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
   <tiles/>
   <PhysicsWorld>0</PhysicsWorld>
