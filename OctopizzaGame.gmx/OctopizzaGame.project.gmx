@@ -85,6 +85,7 @@
     <background>background\bg_9</background>
     <background>background\bg_10</background>
     <background>background\Menu_background</background>
+    <background>background\bg_Goal</background>
   </backgrounds>
   <paths name="paths"/>
   <objects name="objects">
@@ -147,13 +148,6 @@
     </objects>
   </objects>
   <rooms name="rooms">
-    <rooms name="Level 2B">
-      <room>rooms\room13</room>
-      <room>rooms\room17</room>
-      <room>rooms\room18</room>
-      <room>rooms\room14</room>
-      <room>rooms\room16</room>
-    </rooms>
     <rooms name="Level_0">
       <room>rooms\rm_Menu_Screen</room>
       <room>rooms\rm_level_select</room>
@@ -169,6 +163,13 @@
       <room>rooms\room3a</room>
       <room>rooms\room4a</room>
       <room>rooms\room5a</room>
+    </rooms>
+    <rooms name="Level 2B">
+      <room>rooms\room13</room>
+      <room>rooms\room17</room>
+      <room>rooms\room18</room>
+      <room>rooms\room14</room>
+      <room>rooms\room16</room>
     </rooms>
     <room>rooms\Snail_Construction</room>
   </rooms>

@@ -74,6 +74,7 @@ audio_stop_sound(snd_theme_song);</code>
     <instance objName="obj_cowardFish" x="1056" y="992" name="inst_AC9E7DAF" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_cowardFish" x="1600" y="1120" name="inst_651CC0AC" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_cowardFish" x="960" y="192" name="inst_B23CF3D6" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_Arrow" x="1824" y="800" name="inst_53009DBD" locked="0" code="" scaleX="-1" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
   <tiles/>
   <PhysicsWorld>0</PhysicsWorld>
