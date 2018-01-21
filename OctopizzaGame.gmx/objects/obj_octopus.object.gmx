@@ -64,6 +64,14 @@ if (y &lt; ground) {friction = 0.1} //Easier to swim than to slide
 if (y &lt; 20) { y = 20; } //Cannot raise above the ceiling
 if (x &lt; 130) {x = 130;}     // Left room boundary
 if (x &gt; 1900) {x = 1900;}   // Right room boundary
+
+if mouse_check_button_pressed(mb_left)
+   {
+    sprite_index = Anim_swim;
+    image_speed = 1/4;
+    image_xscale = .70;
+    image_yscale = .70;
+   }
 </string>
           </argument>
         </arguments>
@@ -226,6 +234,8 @@ obj_octopus.speed = swimspeed;
             <kind>1</kind>
             <string>x_press = mouse_x;
 y_press = mouse_y;
+
+
 </string>
           </argument>
         </arguments>
