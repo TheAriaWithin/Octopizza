@@ -61,6 +61,7 @@
     </sprites>
     <sprites name="Octoboy_anim">
       <sprite>sprites\Anim_swim</sprite>
+      <sprite>sprites\Anim_wiggle</sprite>
     </sprites>
   </sprites>
   <backgrounds name="background">
