@@ -86,6 +86,7 @@
     <background>background\bg_9</background>
     <background>background\bg_10</background>
     <background>background\Menu_background</background>
+    <background>background\bg_Goal</background>
   </backgrounds>
   <paths name="paths"/>
   <objects name="objects">
@@ -119,11 +120,11 @@
         <object>objects\obj_snail_2</object>
         <object>objects\obj_snail_3</object>
         <object>objects\obj_snail_4</object>
-        <object>objects\obj_snail_5</object>
+        <object>objects\obj_snail_5_bottom</object>
         <object>objects\obj_snail_6</object>
         <object>objects\obj_snail_7</object>
         <object>objects\obj_snail_8</object>
-        <object>objects\obj_snail_9</object>
+        <object>objects\obj_snail_9_bottom</object>
       </objects>
     </objects>
     <objects name="GameDev Objects">
@@ -166,9 +167,9 @@
     </rooms>
     <rooms name="Level 2B">
       <room>rooms\room13</room>
-      <room>rooms\room14</room>
       <room>rooms\room17</room>
       <room>rooms\room18</room>
+      <room>rooms\room14</room>
       <room>rooms\room16</room>
     </rooms>
     <room>rooms\Snail_Construction</room>
