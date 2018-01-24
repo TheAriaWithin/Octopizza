@@ -59,7 +59,6 @@ audio_stop_sound(snd_theme_song);</code>
   </views>
   <instances>
     <instance objName="obj_control" x="0" y="0" name="inst_F85F304E" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_octopus" x="192" y="1152" name="inst_063CCE5B" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_volume" x="2016" y="32" name="inst_39AE1CFB" locked="0" code="" scaleX="0.504950523376465" scaleY="0.504950523376465" colour="4294967295" rotation="0"/>
     <instance objName="obj_menu_button" x="1696" y="1376" name="inst_AA922781" locked="0" code="" scaleX="0.606666684150696" scaleY="0.588888883590698" colour="4294967295" rotation="0"/>
     <instance objName="obj_platform" x="992" y="608" name="inst_34DDD6E2" locked="0" code="" scaleX="13" scaleY="7.5" colour="4294967295" rotation="0"/>
@@ -68,6 +67,7 @@ audio_stop_sound(snd_theme_song);</code>
     <instance objName="obj_snail_9_bottom" x="768" y="903" name="inst_F2937931" locked="0" code="" scaleX="1.75999999046326" scaleY="1.73000001907349" colour="4294967295" rotation="0"/>
     <instance objName="obj_snail_5_bottom" x="1152" y="903" name="inst_7D271370" locked="0" code="" scaleX="1.75999999046326" scaleY="1.73000001907349" colour="4294967295" rotation="0"/>
     <instance objName="obj_Arrow" x="1855" y="678" name="inst_E0D3926E" locked="0" code="" scaleX="-1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_octopus" x="160" y="1088" name="inst_22233C55" locked="0" code="" scaleX="0.683333337306976" scaleY="0.699999988079071" colour="4294967295" rotation="0"/>
   </instances>
   <tiles/>
   <PhysicsWorld>0</PhysicsWorld>

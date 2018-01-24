@@ -60,13 +60,13 @@ audio_stop_sound(snd_theme_song);</code>
   <instances>
     <instance objName="obj_Arrow" x="1824" y="800" name="inst_F91B1DA5" locked="0" code="" scaleX="-1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_seaweed" x="736" y="1248" name="inst_706C27C5" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_seaweed" x="1056" y="1216" name="inst_D63878BA" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_seaweed" x="1152" y="1216" name="inst_D63878BA" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_seaweed" x="1472" y="1152" name="inst_AB1F32BF" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_seaweed" x="576" y="1088" name="inst_6026DA41" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_cowardFish" x="608" y="1056" name="inst_A1D9C363" locked="0" code="" scaleX="0.932885885238647" scaleY="1.56666672229767" colour="4294967295" rotation="0"/>
+    <instance objName="obj_seaweed" x="896" y="1056" name="inst_6026DA41" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_cowardFish" x="768" y="864" name="inst_A1D9C363" locked="0" code="" scaleX="0.932885885238647" scaleY="1.56666672229767" colour="4294967295" rotation="0"/>
     <instance objName="obj_cowardFish" x="1472" y="1088" name="inst_9F8AC14A" locked="0" code="" scaleX="1.14765095710754" scaleY="1.56666672229767" colour="4294967295" rotation="0"/>
-    <instance objName="obj_octopus" x="192" y="1120" name="inst_D6A10BE2" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_volume" x="2016" y="32" name="inst_11B23661" locked="0" code="" scaleX="0.504950523376465" scaleY="0.504950523376465" colour="4294967295" rotation="0"/>
+    <instance objName="obj_octopus" x="160" y="1088" name="inst_556F0081" locked="0" code="" scaleX="0.683333337306976" scaleY="0.699999988079071" colour="4294967295" rotation="0"/>
   </instances>
   <tiles/>
   <PhysicsWorld>0</PhysicsWorld>
