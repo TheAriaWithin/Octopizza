@@ -7,18 +7,18 @@
   <coltolerance>0</coltolerance>
   <sepmasks>0</sepmasks>
   <bboxmode>0</bboxmode>
-  <bbox_left>0</bbox_left>
-  <bbox_right>263</bbox_right>
-  <bbox_top>0</bbox_top>
-  <bbox_bottom>184</bbox_bottom>
+  <bbox_left>19</bbox_left>
+  <bbox_right>497</bbox_right>
+  <bbox_top>22</bbox_top>
+  <bbox_bottom>382</bbox_bottom>
   <HTile>0</HTile>
   <VTile>0</VTile>
   <TextureGroups>
     <TextureGroup0>0</TextureGroup0>
   </TextureGroups>
   <For3D>0</For3D>
-  <width>264</width>
-  <height>185</height>
+  <width>720</width>
+  <height>720</height>
   <frames>
     <frame index="0">images\spr_octopus_0.png</frame>
   </frames>

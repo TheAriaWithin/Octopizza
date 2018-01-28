@@ -58,9 +58,17 @@
       <sprite>sprites\spr_level_button_4a</sprite>
       <sprite>sprites\spr_level_button_5a</sprite>
       <sprite>sprites\spr_level_2_text</sprite>
+      <sprite>sprites\spr_level_button_1b</sprite>
+      <sprite>sprites\spr_level_button_2b</sprite>
+      <sprite>sprites\spr_level_button_3b</sprite>
+      <sprite>sprites\spr_level_button_4b</sprite>
+      <sprite>sprites\spr_level_button_5b</sprite>
+      <sprite>sprites\spr_level_3_text</sprite>
+      <sprite>sprites\spr_next_button</sprite>
     </sprites>
     <sprites name="Octoboy_anim">
       <sprite>sprites\Anim_swim</sprite>
+      <sprite>sprites\Anim_wiggle</sprite>
     </sprites>
   </sprites>
   <backgrounds name="background">
@@ -106,6 +114,13 @@
       <object>objects\obj_level_button_5a</object>
       <object>objects\obj_level_2_text</object>
       <object>objects\obj_menu_button</object>
+      <object>objects\obj_level_button_1b</object>
+      <object>objects\obj_level_button_2b</object>
+      <object>objects\obj_level_button_3b</object>
+      <object>objects\obj_level_button_4b</object>
+      <object>objects\obj_level_button_5b</object>
+      <object>objects\obj_level_3_text</object>
+      <object>objects\obj_next_button</object>
     </objects>
     <objects name="Collectables Objects">
       <object>objects\obj_cowardFish</object>
@@ -166,9 +181,9 @@
     </rooms>
     <rooms name="Level 2B">
       <room>rooms\room13</room>
-      <room>rooms\room17</room>
-      <room>rooms\room18</room>
       <room>rooms\room14</room>
+      <room>rooms\room18</room>
+      <room>rooms\room17</room>
       <room>rooms\room16</room>
     </rooms>
     <room>rooms\Snail_Construction</room>

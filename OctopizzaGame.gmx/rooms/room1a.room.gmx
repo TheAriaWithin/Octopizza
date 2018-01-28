@@ -61,11 +61,11 @@ audio_stop_sound(snd_theme_song);</code>
     <instance objName="obj_control" x="0" y="0" name="inst_50CD97CE" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_Arrow" x="1824" y="800" name="inst_F91B1DA5" locked="0" code="" scaleX="-1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_cowardFish" x="192" y="800" name="inst_17EC7D3B" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_cowardFish" x="480" y="1088" name="inst_C17983EE" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_cowardFish" x="1088" y="1056" name="inst_C17983EE" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_cowardFish" x="1248" y="512" name="inst_8DB5E42B" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_platform" x="1024" y="736" name="inst_AF61BDEF" locked="0" code="" scaleX="9" scaleY="0.5" colour="4294967295" rotation="0"/>
-    <instance objName="obj_octopus" x="192" y="1088" name="inst_3266123E" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_volume" x="2016" y="32" name="inst_6268341C" locked="0" code="" scaleX="0.504950523376465" scaleY="0.504950523376465" colour="4294967295" rotation="0"/>
+    <instance objName="obj_octopus" x="160" y="1088" name="inst_7068417E" locked="0" code="" scaleX="0.683333337306976" scaleY="0.699999988079071" colour="4294967295" rotation="0"/>
   </instances>
   <tiles/>
   <PhysicsWorld>0</PhysicsWorld>

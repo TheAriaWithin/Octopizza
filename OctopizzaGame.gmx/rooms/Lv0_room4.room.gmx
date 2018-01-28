@@ -58,7 +58,7 @@ audio_stop_sound(snd_theme_song);</code>
   </views>
   <instances>
     <instance objName="obj_Arrow" x="1824" y="800" name="inst_F91B1DA5" locked="0" code="" scaleX="-1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_seaweed" x="544" y="1152" name="inst_FB87431D" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_seaweed" x="704" y="1184" name="inst_FB87431D" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_seaweed" x="1344" y="1184" name="inst_048D6414" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_platform" x="832" y="960" name="inst_0259301E" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_platform" x="896" y="960" name="inst_0B6FE768" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
@@ -69,8 +69,8 @@ audio_stop_sound(snd_theme_song);</code>
     <instance objName="obj_platform" x="1184" y="960" name="inst_60313C29" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_platform" x="768" y="960" name="inst_DE38C9E4" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_coral2" x="992" y="1184" name="inst_1AB0383F" locked="0" code="" scaleX="2.4912281036377" scaleY="2.5" colour="4294967295" rotation="0"/>
-    <instance objName="obj_octopus" x="192" y="1152" name="inst_231C8473" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_volume" x="2016" y="32" name="inst_B1BB056F" locked="0" code="" scaleX="0.504950523376465" scaleY="0.504950523376465" colour="4294967295" rotation="0"/>
+    <instance objName="obj_octopus" x="160" y="1088" name="inst_646695AE" locked="0" code="" scaleX="0.683333337306976" scaleY="0.699999988079071" colour="4294967295" rotation="0"/>
   </instances>
   <tiles/>
   <PhysicsWorld>0</PhysicsWorld>
