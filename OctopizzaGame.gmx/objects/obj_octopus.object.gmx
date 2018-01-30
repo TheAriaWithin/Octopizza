@@ -247,6 +247,11 @@ if (x_press != -1 || y_press != -1) {
 }
 */
 
+    sprite_index = Anim_swim;
+    image_speed = 1/4;
+    image_xscale = .70;
+    image_yscale = .70;
+
 obj_octopus.direction =  point_direction(x, y, mouse_x, mouse_y);
 image_angle = obj_octopus.direction -90;
 obj_octopus.speed = swimspeed;
@@ -274,11 +279,6 @@ obj_octopus.speed = swimspeed;
             <kind>1</kind>
             <string>x_press = mouse_x;
 y_press = mouse_y;
-
-    sprite_index = Anim_swim;
-    image_speed = 1/4;
-    image_xscale = .70;
-    image_yscale = .70;
 </string>
           </argument>
         </arguments>
