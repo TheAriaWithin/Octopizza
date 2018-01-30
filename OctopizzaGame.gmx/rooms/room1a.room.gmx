@@ -66,6 +66,7 @@ audio_stop_sound(snd_theme_song);</code>
     <instance objName="obj_platform" x="1024" y="736" name="inst_AF61BDEF" locked="0" code="" scaleX="9" scaleY="0.5" colour="4294967295" rotation="0"/>
     <instance objName="obj_volume" x="2016" y="32" name="inst_6268341C" locked="0" code="" scaleX="0.504950523376465" scaleY="0.504950523376465" colour="4294967295" rotation="0"/>
     <instance objName="obj_octopus" x="160" y="1088" name="inst_7068417E" locked="0" code="" scaleX="0.683333337306976" scaleY="0.699999988079071" colour="4294967295" rotation="0"/>
+    <instance objName="obj_menu_button" x="1696" y="1376" name="inst_E96C7672" locked="0" code="" scaleX="0.606666684150696" scaleY="0.588888883590698" colour="4294967295" rotation="0"/>
   </instances>
   <tiles/>
   <PhysicsWorld>0</PhysicsWorld>
