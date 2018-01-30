@@ -11,7 +11,8 @@
   <colour>12632256</colour>
   <showcolour>-1</showcolour>
   <code>global.collectables = 0;
-audio_play_sound(snd_theme_song, 10, true);</code>
+audio_play_sound(snd_theme_song, 10, true);
+audio_sound_gain(snd_theme_song, .4, .4);</code>
   <enableViews>0</enableViews>
   <clearViewBackground>-1</clearViewBackground>
   <clearDisplayBuffer>-1</clearDisplayBuffer>
