@@ -38,6 +38,7 @@ y_press = -1;
     image_speed = 1/4;
     image_xscale = .70;
     image_yscale = .70;
+    image_angle = 0;
 </string>
           </argument>
         </arguments>
@@ -64,6 +65,7 @@ y_press = -1;
     image_speed = 1/4;
     image_xscale = .70;
     image_yscale = .70;
+    image_angle = 0;
 </string>
           </argument>
         </arguments>
@@ -246,6 +248,7 @@ if (x_press != -1 || y_press != -1) {
 */
 
 obj_octopus.direction =  point_direction(x, y, mouse_x, mouse_y);
+image_angle = obj_octopus.direction -90;
 obj_octopus.speed = swimspeed;
 </string>
           </argument>
@@ -327,6 +330,12 @@ obj_octopus.y = ground;
 friction = 0.5;
 gravity = 0.2;
 speed = 0;
+
+    sprite_index = Anim_wiggle;
+    image_speed = 1/4;
+    image_xscale = .70;
+    image_yscale = .70;
+    image_angle = 0;
 </string>
           </argument>
         </arguments>
