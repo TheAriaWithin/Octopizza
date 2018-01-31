@@ -96,21 +96,28 @@ if (y &lt; ground) {friction = 0.1} //Easier to swim than to slide
 if (y &lt; 20) { y = 20; } //Cannot raise above the ceiling
 if (x &lt; 130) {x = 130;}     // Left room boundary
 if (x &gt; 1900) {x = 1900;}   // Right room boundary
+obj_octopus.gravity = 0.2;
 
-/*if  alarm_get(0) == 0 {
-    sprite_index = Anim_wiggle;
-    image_speed = 1/4;
-    image_xscale = .70;
-    image_yscale = .70;
-}*/
-
-/*if mouse_check_button_pressed(mb_left)
+if (mouse_check_button(mb_left) &amp;&amp; distance_to_point(mouse_x, mouse_y) &gt; 0)
    {
     sprite_index = Anim_swim;
     image_speed = 1/4;
     image_xscale = .70;
     image_yscale = .70;
-}*/
+
+    obj_octopus.direction =  point_direction(x, y, mouse_x, mouse_y);
+    image_angle = obj_octopus.direction - 90;
+    obj_octopus.speed = swimspeed;
+    
+    alarm[0] = 30;
+    
+}
+
+else if mouse_check_button(mb_left)
+{
+    obj_octopus.speed = 0;
+    obj_octopus.gravity = 0;
+}
 </string>
           </argument>
         </arguments>
@@ -216,94 +223,6 @@ move_bounce_solid(false);
 else speed = 5;
 move_bounce_solid(false);
 </string>
-          </argument>
-        </arguments>
-      </action>
-    </event>
-    <event eventtype="6" enumb="56">
-      <action>
-        <libid>1</libid>
-        <id>603</id>
-        <kind>7</kind>
-        <userelative>0</userelative>
-        <isquestion>0</isquestion>
-        <useapplyto>-1</useapplyto>
-        <exetype>2</exetype>
-        <functionname></functionname>
-        <codestring></codestring>
-        <whoName>self</whoName>
-        <relative>0</relative>
-        <isnot>0</isnot>
-        <arguments>
-          <argument>
-            <kind>1</kind>
-            <string>//Move in Mouse-Release Direction
-/*
-if (x_press != -1 || y_press != -1) {
-    obj_octopus.direction =  point_direction(x_press, y_press, mouse_x, mouse_y);
-    obj_octopus.speed = swimspeed;
-    x_press = -1;
-    y_press = -1;
-}
-*/
-
-    sprite_index = Anim_swim;
-    image_speed = 1/4;
-    image_xscale = .70;
-    image_yscale = .70;
-
-obj_octopus.direction =  point_direction(x, y, mouse_x, mouse_y);
-image_angle = obj_octopus.direction -90;
-obj_octopus.speed = swimspeed;
-</string>
-          </argument>
-        </arguments>
-      </action>
-    </event>
-    <event eventtype="6" enumb="53">
-      <action>
-        <libid>1</libid>
-        <id>603</id>
-        <kind>7</kind>
-        <userelative>0</userelative>
-        <isquestion>0</isquestion>
-        <useapplyto>-1</useapplyto>
-        <exetype>2</exetype>
-        <functionname></functionname>
-        <codestring></codestring>
-        <whoName>self</whoName>
-        <relative>0</relative>
-        <isnot>0</isnot>
-        <arguments>
-          <argument>
-            <kind>1</kind>
-            <string>x_press = mouse_x;
-y_press = mouse_y;
-</string>
-          </argument>
-        </arguments>
-      </action>
-      <action>
-        <libid>1</libid>
-        <id>301</id>
-        <kind>0</kind>
-        <userelative>-1</userelative>
-        <isquestion>0</isquestion>
-        <useapplyto>-1</useapplyto>
-        <exetype>1</exetype>
-        <functionname>action_set_alarm</functionname>
-        <codestring></codestring>
-        <whoName>self</whoName>
-        <relative>0</relative>
-        <isnot>0</isnot>
-        <arguments>
-          <argument>
-            <kind>0</kind>
-            <string>30</string>
-          </argument>
-          <argument>
-            <kind>4</kind>
-            <string>0</string>
           </argument>
         </arguments>
       </action>
